@@ -127,9 +127,9 @@ def build_test(pool):
 if not st.session_state.gate_passed:
     st.title("🔒 Mandarin Flashcards")
     st.caption("Enter the app password to continue.")
-    pw = st.text_input("App password", type="4536")
+    pw = st.text_input("App password", type="password")
     if st.button("Enter"):
-        if check_app_password(pw):
+        if check_app_password(pw): "4536"
             st.session_state.gate_passed = True
             st.rerun()
         else:
