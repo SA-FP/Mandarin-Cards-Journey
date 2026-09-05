@@ -130,7 +130,7 @@ if not st.session_state.gate_passed:
     pw = st.text_input("App password", type="password")
     if st.button("Enter"):
         if check_app_password(pw): "4536"
-            st.session_state.gate_passed = True
+          st.session_state.gate_passed = True
             st.rerun()
         else:
             st.error("Wrong password.")
