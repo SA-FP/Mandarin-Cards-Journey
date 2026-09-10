@@ -44,7 +44,7 @@ st.set_page_config(page_title="Mandarin Flashcards 汉字", page_icon="🀄", la
 st.markdown("""
 <style>
   .st-key-devgate button {
-      opacity: 0.05 !important;
+      opacity: 0.5 !important;
       border: none !important;
       background: transparent !important;
       box-shadow: none !important;
