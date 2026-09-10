@@ -2,7 +2,7 @@
   "profiles": {
     "peter": {
       "known": [],
-      "seen": 1,
+      "seen": 2,
       "correct": 0,
       "wrong": 0,
       "chapters": {}
