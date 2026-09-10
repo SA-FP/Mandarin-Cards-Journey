@@ -171,7 +171,7 @@ if st.session_state.profile is None and not st.session_state.dev_mode:
             )
             if st.button(PROFILES[key]["display"], key=f"pick_{key}", use_container_width=True):
                 st.session_state.picking = key
-                st.session_state.dev_prompt = False
+                st.session_state.dev_prompt = True
                 st.rerun()
 
     # Stage 3 — password for the chosen profile
